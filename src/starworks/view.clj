@@ -6,7 +6,9 @@
 (defn layout
   "HTML 기본 레이아웃"
   [& contents]
-  (let [설명 "스타벅스 와이파이 연결러"
+  (let [설명 (str
+              "스타벅스에서 무료로 제공하는 와이파이에 연결할 때, 번거로운 입력 절차를 자동으로 "
+              "진행해주는 macOS 애플리케이션입니다.")
         타이틀 "스타웍스 - 스타벅스 WiFi 연결러"]
     (html5 [:head
             [:meta {:charset "utf-8"}]
@@ -20,7 +22,7 @@
             [:meta {:property "og:locale" :content "ko_KR"}]
             [:meta {:property "og:description" :content 설명}]
             [:meta {:property "fb:app_id" :content "1587341957982820"}]
-            [:meta {:property "og:image" :content "http://xn--9t4ba803ac1m.com/img/256@2x.png"}]
+            [:meta {:property "og:image:url" :content "http://xn--9t4ba803ac1m.com/img/256@2x.png"}]
             [:meta {:property "og:image:type" :content "image/png"}]
             [:meta {:property "og:image:width" :content "1200"}]
             [:meta {:property "og:image:height" :content "630"}]
