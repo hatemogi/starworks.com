@@ -41,12 +41,7 @@
                              "css/starworks.css"])
            [:body contents]
            (map include-js ["js/starworks.js"])
-           [:script {:async true :src "https://www.googletagmanager.com/gtag/js?id=UA-108134101-1"}]
-           [:script (s/join "\n"
-                            ["window.dataLayer = window.dataLayer || [];"
-                             "function gtag(){dataLayer.push(arguments);}"
-                             "gtag('js', new Date());"
-                             "gtag('config', 'UA-108134101-1');"])])))
+           [:script {:async true :src "https://www.googletagmanager.com/gtag/js?id=UA-108134101-1"}])))
 
 (defn cover
   "커버 페이지 레이아웃"
