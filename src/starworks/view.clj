@@ -69,7 +69,7 @@
                  [:section#다운로드
                   [:div
                    [:h1 "다운로드"]
-                   [:a.btn.btn-large.btn-primary {:href "/downloads/starworks-0.1.0.dmg"} "다운로드 v0.1.0"]]]
+                   [:a.btn.btn-large.btn-primary {:href "downloads/starworks-0.1.0.dmg"} "다운로드 v0.1.0"]]]
                  [:section#사용법
                   [:div
                    [:h1 "사용법"]
