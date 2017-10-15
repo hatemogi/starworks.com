@@ -62,7 +62,7 @@
                  [:section#다운로드
                   [:div
                    [:h1 "다운로드"]
-                   [:a.btn.btn-large.btn-primary {:href "/download/starworks-0.1.0.dmg"} "다운로드"]]]]
+                   [:a.btn.btn-large.btn-primary {:href "/downloads/starworks-0.1.0.dmg"} "다운로드"]]]]
                 문서))))
 
 (defn done-page
