@@ -1,5 +1,6 @@
 (ns starworks.view
-  (:require [hiccup.core :refer [h html]]
+  (:require [clojure.string :as s]
+            [hiccup.core :refer [h html]]
             [hiccup.page :refer [html5 include-css include-js]]
             [starworks.markdown :as md]))
 
@@ -39,7 +40,13 @@
                              "css/font-awesome.min.css"
                              "css/starworks.css"])
            [:body contents]
-           (map include-js ["js/starworks.js"]))))
+           (map include-js ["js/starworks.js"])
+           [:script {:async true :src "https://www.googletagmanager.com/gtag/js?id=UA-108134101-1"}]
+           [:script (s/join "\n"
+                            ["window.dataLayer = window.dataLayer || [];"
+                             "function gtag(){dataLayer.push(arguments);}"
+                             "gtag('js', new Date());"
+                             "gtag('config', 'UA-108134101-1');"])])))
 
 (defn cover
   "커버 페이지 레이아웃"
@@ -62,7 +69,7 @@
                    [:h1 "스타웍스"]
                    [:p.text-center
                     [:img {:src "img/256@2x.png" :width 256 :height 256}]]
-                   [:p "스타웍스는 스타벅스에서 무료 와이파이를 쓸 때 거치는 "
+                   [:p "스타벅스에서 무료 와이파이를 쓸 때 거치는 "
                        "번거로운 동의 절차를 자동으로 진행해주는 macOS용 앱입니다."]]]
                  [:section#다운로드
                   [:div
@@ -75,7 +82,7 @@
                    [:p "다운로드 받은 .dmg 파일을 열어서 '스타웍스'를 응용프로그램 폴더로 옭기고, "
                     "실행합니다. 앱이 실행된 상태에서 스타벅스에서 와이파이에 연결되면, 평소대로 동의절차를 "
                     "거치고 이후 자동으로 연결해 줍니다."]
-                   [:p "항상 편리하게 쓰시려면 메뉴에 있는 '로그인시 자동실행'을 체크해둡니다."]]]]
+                   [:p "항상 편리하게 쓰시려면 메뉴에 있는 '로그인 시 자동실행'을 체크해둡니다."]]]]
                 문서))))
 
 (defn done-page
