@@ -24,8 +24,8 @@
             [:meta {:property "fb:app_id" :content "1587341957982820"}]
             [:meta {:property "og:image:url" :content "http://xn--9t4ba803ac1m.com/img/256@2x.png"}]
             [:meta {:property "og:image:type" :content "image/png"}]
-            [:meta {:property "og:image:width" :content "1200"}]
-            [:meta {:property "og:image:height" :content "630"}]
+            [:meta {:property "og:image:width" :content "256"}]
+            [:meta {:property "og:image:height" :content "256"}]
 
             [:meta {:name "twitter:card" :content "summary"}]
             [:meta {:name "twitter:site" :content "@starworksapp"}]
