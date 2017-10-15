@@ -36,6 +36,7 @@ h1 {
   margin-bottom: 1rem;
   padding: 0.5rem 2rem;
   border-radius: 5px;
+  clear: both;
 }
 
 h2 {
@@ -66,8 +67,8 @@ section:last-child a:active {
 }
 
 section:first-child {
-  background-color: #006495;
-  color: #fff;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 section:nth-child(3) {

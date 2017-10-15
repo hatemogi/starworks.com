@@ -31,7 +31,17 @@
 (defn index-page
   []
   (let [문서 (md/문서변환 (slurp "src/index.md"))]
-    (html (into [:main] 문서))))
+    (html (into [:main
+                 [:section#스타웍스
+                  [:div
+                   [:h1 "스타웍스"]
+                   [:p
+                    [:img {:src "img/starworks.svg" :width "300px"}]]]]
+                 [:section#다운로드
+                  [:div
+                   [:h1 "다운로드"]
+                   [:a.btn.btn-large.btn-primary {:href "/download/starworks-0.1.0.dmg"} "다운로드"]]]]
+                문서))))
 
 (defn done-page
   []
