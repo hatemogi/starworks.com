@@ -60,12 +60,21 @@
                  [:section#스타웍스
                   [:div
                    [:h1 "스타웍스"]
-                   [:p
-                    [:img {:src "img/starworks.svg" :width "300px"}]]]]
+                   [:p.text-center
+                    [:img {:src "img/256@2x.png" :width 256 :height 256}]]
+                   [:p "스타웍스는 스타벅스에서 무료 와이파이를 쓸 때 거치는 "
+                       "번거로운 동의 절차를 자동으로 진행해주는 macOS용 앱입니다."]]]
                  [:section#다운로드
                   [:div
                    [:h1 "다운로드"]
-                   [:a.btn.btn-large.btn-primary {:href "/downloads/starworks-0.1.0.dmg"} "다운로드"]]]]
+                   [:a.btn.btn-large.btn-primary {:href "/downloads/starworks-0.1.0.dmg"} "다운로드 v0.1.0"]]]
+                 [:section#사용법
+                  [:div
+                   [:h1 "사용법"]
+                   [:img {:src "img/dmg.png" :width 428 :height 279}]
+                   [:p "다운로드 받은 .dmg 파일을 열어서 '스타웍스'를 응용프로그램 폴더로 옭기고, "
+                    "실행합니다. 앱이 실행된 상태에서 스타벅스에서 와이파이에 연결되면, 평소대로 동의절차를 "
+                    "거치고 이후 자동으로 연결해 줍니다."]]]]
                 문서))))
 
 (defn done-page
