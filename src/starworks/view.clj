@@ -6,15 +6,37 @@
 (defn layout
   "HTML 기본 레이아웃"
   [& contents]
-  (html5 [:head
-          [:meta {:charset "utf-8"}]
-          [:meta {:name "viewport" :content "width=device-width, initial-scale=1"}]
-          [:title "스타웍스 - 스타벅스 WiFi 연결러"]
-          (map include-css ["css/bootstrap.min.css"
-                            "css/font-awesome.min.css"
-                            "css/starworks.css"])]
-         [:body contents
-          (map include-js ["js/starworks.js"])]))
+  (let [설명 "스타벅스 와이파이 연결러"
+        타이틀 "스타웍스 - 스타벅스 WiFi 연결러"]
+    (html5 [:head
+            [:meta {:charset "utf-8"}]
+            [:meta {:name "viewport" :content "width=device-width, initial-scale=1"}]
+            [:meta {:name "description" :content 설명}]
+            [:meta {:name "author" :content "김대현"}]
+
+            [:meta {:property "og:site_name" :content "스타웍스"}]
+            [:meta {:property "og:url" :content "http://xn--9t4ba803ac1m.com"}]
+            [:meta {:property "og:title" :content 타이틀}]
+            [:meta {:property "og:locale" :content "ko_KR"}]
+            [:meta {:property "og:description" :content 설명}]
+            [:meta {:property "fb:app_id" :content "1587341957982820"}]
+            [:meta {:property "og:image" :content "http://xn--9t4ba803ac1m.com/img/256@2x.png"}]
+            [:meta {:property "og:image:type" :content "image/png"}]
+            [:meta {:property "og:image:width" :content "1200"}]
+            [:meta {:property "og:image:height" :content "630"}]
+
+            [:meta {:name "twitter:card" :content "summary"}]
+            [:meta {:name "twitter:site" :content "@starworksapp"}]
+            [:meta {:name "twitter:title" :content 타이틀}]
+            [:meta {:name "twitter:image" :content "xn--9t4ba803ac1m.com/img/256@2x.png"}]
+            [:meta {:name "twitter:description" :content 설명}]
+
+            [:title 타이틀]]
+           (map include-css ["css/bootstrap.min.css"
+                             "css/font-awesome.min.css"
+                             "css/starworks.css"])
+           [:body contents]
+           (map include-js ["js/starworks.js"]))))
 
 (defn cover
   "커버 페이지 레이아웃"
