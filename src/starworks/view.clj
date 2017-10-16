@@ -73,7 +73,8 @@
                  [:section#사용법
                   [:div
                    [:h1 "사용법"]
-                   [:img {:src "img/dmg.png" :width 428 :height 279}]
+                   [:p.text-center
+                     [:img {:src "img/dmg.png" :width 428 :height 279}]]
                    [:p "다운로드한 .dmg 파일을 열어서 '스타웍스'를 응용프로그램 폴더로 옭기고, "
                     "실행합니다. 앱이 실행된 상태에서 스타벅스에서 와이파이에 연결되면, 평소대로 동의 절차를 "
                     "거치고 이후 자동으로 연결해 줍니다."]
