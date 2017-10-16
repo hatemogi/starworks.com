@@ -12,20 +12,19 @@ main {
 
 section {
   width: 100%;
-  min-height: 80vh;
   background-color: #2C6700;
   display: flex;
   align-items: center;
   align-items: center;
+  min-height: 77vh;
   align-self: center;
   justify-content: center;
   color: #fff;
 }
 
 section > :only-child {
-  margin: 3rem auto;
+  margin: 1rem auto;
   max-width: 600px;
-  min-height: 400px;
   width: 100%;
 }
 
@@ -58,21 +57,14 @@ section:last-child {
   color: #000;
 }
 
-section:last-child a:link,
-section:last-child a:visited,
-section:last-child a:hover,
-section:last-child a:active {
-  text-decoration: none;
-  color: #1248db;
-}
-
 section:first-child {
   background-color: #ffffff;
   color: #000000;
 }
 
-section:nth-child(2) {
+section:nth-child(3) {
   background-color: #E5E4D7;
+  color: #000;
 }
 
 section ul {
@@ -88,7 +80,7 @@ img.profile {
 }
 
 nav {
-  background-color: #276700;
+  background-color: #206000;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -107,13 +99,17 @@ nav {
   }
 }
 
-nav a {
+nav a:link, nav a:visited, nav a:hover, nav a:active  {
   color: #fff;
 }
 
 section a:link, section a:visited, section a:hover, section a:active {
   text-decoration: none;
-  color: #ffff55;
+  color: #1248db;
+}
+
+section a[href*="downloads"] {
+  color: #fff;
 }
 
 section a:hover {

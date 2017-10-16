@@ -47,7 +47,7 @@
   "커버 페이지 레이아웃"
   [& contents]
   (layout [:nav
-           (for [주제 ["스타웍스" "다운로드" "사용법" "만든이"]]
+           (for [주제 ["스타웍스" "사용법" "만든이" "개발기"]]
              [:a {:href (str "/#" 주제)} 주제])]
           contents
           [:footer
@@ -65,11 +65,11 @@
                    [:p.text-center
                     [:img {:src "img/256@2x.png" :width 256 :height 256}]]
                    [:p "스타벅스에서 무료 와이파이를 쓸 때 거치는 "
-                       "번거로운 동의 절차를 자동으로 진행해주는 macOS용 앱입니다."]]]
-                 [:section#다운로드
-                  [:div
-                   [:h1 "다운로드"]
-                   [:a.btn.btn-large.btn-primary {:href "downloads/starworks-0.1.0.dmg"} "다운로드 v0.1.0"]]]
+                    "번거로운 동의 절차를 자동으로 진행해주는 macOS용 앱입니다."]
+                   [:p.text-center
+                    [:a.btn.btn-large.btn-primary {:href "downloads/starworks-0.1.0.dmg"}
+                     [:i.fa.fa-lg.fa-download]
+                     " 다운로드 v0.1.0"]]]]
                  [:section#사용법
                   [:div
                    [:h1 "사용법"]
@@ -83,7 +83,10 @@
 
 (defn done-page
   []
-  (html [:main [:section#완료 "연결됐어요"]]))
+  (html [:main [:section#완료
+                [:div
+                 [:h1 "연결 성공"]
+                 [:p.text-center "자동으로 스타벅스 WiFi에 연결했습니다."]]]]))
 
 (defn not-found
   []
