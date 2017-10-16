@@ -70,15 +70,16 @@
                    [:p "스타벅스에서 무료 와이파이를 쓸 때 거치는 "
                     "번거로운 동의 절차를 자동으로 진행해주는 macOS용 앱입니다."]
                    [:p.text-center
-                    [:a.btn.btn-large.btn-primary {:href "downloads/starworks-0.1.1.dmg"}
+                    [:a.btn.btn-large.btn-primary {:href "downloads/starworks-0.1.2.dmg"}
                      [:i.fa.fa-lg.fa-download]
-                     " 다운로드 v0.1.1"]]]]
+                     " 다운로드 v0.1.2 (2017/10/16)"]]]]
                  [:section#사용법
                   [:div
                    [:h1 "사용법"]
                    [:p.text-center
-                     [:img {:src "img/dmg.png" :width "100%"}]]
-                   [:p "항상 편리하게 쓰시려면 메뉴에 있는 '로그인 시 자동실행'을 체크해둡니다."]]]]
+                    [:img {:src "img/dmg.png" :width "100%"}]]
+                   [:p "다운로드 받은 dmg 파일을 열면 위 화면이 보이며, 안내대로 설치합니다. "
+                       "항상 편리하게 쓰시려면 메뉴에 있는 '로그인 시 자동실행'을 체크해둡니다."]]]]
                 문서))))
 
 (defn done-page
