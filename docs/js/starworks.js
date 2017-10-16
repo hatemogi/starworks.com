@@ -15,6 +15,9 @@ window.addEventListener("load", function() {
       })
     })
   })
+  if (location.href.match(/done\.html/)) {
+    gtag('event', 'connect', {});
+  }
 })
 
 window.dataLayer = window.dataLayer || [];

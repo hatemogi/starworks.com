@@ -67,9 +67,9 @@
                    [:p "스타벅스에서 무료 와이파이를 쓸 때 거치는 "
                     "번거로운 동의 절차를 자동으로 진행해주는 macOS용 앱입니다."]
                    [:p.text-center
-                    [:a.btn.btn-large.btn-primary {:href "downloads/starworks-0.1.0.dmg"}
+                    [:a.btn.btn-large.btn-primary {:href "downloads/starworks-0.1.1.dmg"}
                      [:i.fa.fa-lg.fa-download]
-                     " 다운로드 v0.1.0"]]]]
+                     " 다운로드 v0.1.1"]]]]
                  [:section#사용법
                   [:div
                    [:h1 "사용법"]
@@ -86,7 +86,8 @@
   (html [:main [:section#완료
                 [:div
                  [:h1 "연결 성공"]
-                 [:p.text-center "자동으로 스타벅스 WiFi에 연결했습니다."]]]]))
+                 [:p.text-center "자동으로 스타벅스 WiFi에 연결했습니다."]
+                 #_[:p.text-center [:a.btn.btn-lg.btn-info {:href "#"} "창 닫기"]]]]]))
 
 (defn not-found
   []
