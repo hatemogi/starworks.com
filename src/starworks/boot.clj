@@ -30,13 +30,13 @@
   (let [tmp (tmp-dir!)
         생성 (fn [파일명 내용] (spit (io/file tmp 파일명) 내용))
         파일셋 {"index._html" v/index-page
-                "done._html" v/done-page
+                "done.html" v/done-page
                 "404._html" v/not-found}]
     (with-pre-wrap fileset
       (info (str "writing " (s/join ", " (keys 파일셋)) "\n"))
       (dorun (for [[파일명 생성함수] 파일셋]
                (생성 파일명 (생성함수))))
-      (commit! (add-source fileset tmp)))))
+      (commit! (add-resource fileset tmp)))))
 
 (deftask build
   "빌드 태스크"

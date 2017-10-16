@@ -108,6 +108,10 @@ section a:link, section a:visited, section a:hover, section a:active {
   color: #1248db;
 }
 
+a.btn:link, a.btn:visited {
+  color: #fff;
+}
+
 section a[href*="downloads"] {
   color: #fff;
 }

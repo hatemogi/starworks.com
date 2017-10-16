@@ -83,11 +83,11 @@
 
 (defn done-page
   []
-  (html [:main [:section#완료
-                [:div
-                 [:h1 "연결 성공"]
-                 [:p.text-center "자동으로 스타벅스 WiFi에 연결했습니다."]
-                 #_[:p.text-center [:a.btn.btn-lg.btn-info {:href "#"} "창 닫기"]]]]]))
+  (layout [:main [:section#완료
+                  [:div
+                   [:h1 "스타웍스 연결"]
+                   [:p.text-center "자동으로 스타벅스 WiFi에 연결했습니다."]
+                   [:p.text-center [:button.btn.btn-primary.close-button "닫기"]]]]]))
 
 (defn not-found
   []
