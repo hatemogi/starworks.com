@@ -10,7 +10,7 @@ window.addEventListener("load", function() {
       gtag('event', 'download', {
         "version": version,
         "event_callback": function() {
-          a.onclick();
+          location.href = a.href
         }
       })
     })
