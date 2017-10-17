@@ -12,14 +12,12 @@ main {
 
 section {
   width: 100%;
-  background-color: #2C6700;
   display: flex;
   align-items: center;
   align-items: center;
   min-height: 77vh;
   align-self: center;
   justify-content: center;
-  color: #fff;
 }
 
 section > :only-child {
@@ -52,19 +50,29 @@ h2 {
   }
 }
 
-section:last-child {
-  background-color: #ffffff;
-  color: #000;
-}
-
-section:first-child {
+section:nth-child(4n+1) {
   background-color: #ffffff;
   color: #000000;
 }
 
-section:nth-child(3) {
+section:nth-child(4n+2) {
+  background-color: #2C6700;
+  color: #fff;
+}
+section:nth-child(4n+3) {
   background-color: #E5E4D7;
   color: #000;
+}
+
+section:nth-child(4n) {
+  background-color: #ffcf79;
+  color: #000;
+}
+
+section:last-child img {
+  width: 500px;
+  max-width: 100%;
+  border-radius: 5px;
 }
 
 section ul {
