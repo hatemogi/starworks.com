@@ -32,7 +32,7 @@
             [:meta {:name "twitter:card" :content "summary"}]
             [:meta {:name "twitter:site" :content "@starworksapp"}]
             [:meta {:name "twitter:title" :content 타이틀}]
-            [:meta {:name "twitter:image" :content "xn--9t4ba803ac1m.com/img/256@2x.png"}]
+            [:meta {:name "twitter:image" :content "http://xn--9t4ba803ac1m.com/img/256@2x.png"}]
             [:meta {:name "twitter:description" :content 설명}]
 
             [:title 타이틀]]
