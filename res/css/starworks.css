@@ -2,7 +2,6 @@ html,body {
   font-size: 1.2rem;
   text-align: left;
   text-align: justify;
-  text-justify: inter-word;
 }
 
 main {
@@ -70,7 +69,9 @@ section:nth-child(4n) {
 }
 
 section:last-child img {
-  width: 500px;
+  display: block;
+  margin: auto;
+  width: 400px;
   max-width: 100%;
   border-radius: 5px;
 }
