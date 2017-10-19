@@ -67,7 +67,7 @@
     [:h1 "스타웍스"]
     [:p.text-center
      [:img {:src "img/256@2x.png" :width 256 :height 256}]]
-    [:p "스타벅스에서 무료 와이파이를 쓸 때 거치는 "
+    [:p "한국 스타벅스에서 무료 와이파이를 쓸 때 거치는 "
      "번거로운 동의 절차를 자동으로 진행해주는 macOS용 앱입니다."]
     [:p.text-center
      [:a.btn.btn-large.btn-primary {:href "downloads/starworks-0.1.2.dmg"}
