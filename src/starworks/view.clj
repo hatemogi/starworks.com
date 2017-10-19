@@ -54,7 +54,7 @@
              [:a {:href (str "/#" 주제)} 주제])]
           contents
           [:footer
-           [:a {:href "https://www.facebook.com/스타웍스-1884440211884715/"}
+           [:a {:href "https://www.facebook.com/starworksapp/"}
             (fa :facebook-square) " 페이스북"]
            [:a {:href "https://goo.gl/forms/In2HTw7JmMk7C73r2"}
             (fa :comment) " 문의하기"]
