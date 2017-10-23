@@ -2,12 +2,13 @@
 
 스타벅스를 사무실 삼아서 일하는 개발자, [김대현](https://medium.com/@hatemogi)이 만든 앱입니다. 그리고, [배영돈](http://donny.co.kr)님이 멋진 로고 이미지를 창작해주셨습니다. 혹시나 이 앱의 개발 배경이나 과정이 궁금하시다면, 아래 미디엄 글이 재밌으실지도 모르겠습니다.
 
-* [(1) 스타벅스 WiFi 연결러 개발 시작](https://medium.com/happyprogrammer-in-jeju/스타웍스-개발기-1-2017년-첫-개인-프로젝트-시작-27761e468529)
-* [(2) 스타벅스의 WiFi 네트워크 분석](https://medium.com/happyprogrammer-in-jeju/스타웍스-개발기-2-스타벅스의-wifi-네트워크-분석-810a0557529b)
-* [(2.5) 오리지널의 의미](https://medium.com/happyprogrammer-in-jeju/스타웍스-개발기-2-5-오리지널리티에-똥침을-f8631440c1f8)
-* [(3) 사파리 익스텐션과 웹킷 인젝션 ](https://medium.com/happyprogrammer-in-jeju/스타웍스-개발기-3-사파리-익스텐션과-웹킷-인젝션-1c041b96c847)
-* [(3.5) 프로젝트 재시작 보고 ](https://medium.com/happyprogrammer-in-jeju/스타웍스-개발기-3-5-프로젝트-재시작-보고-a294c1b37adf)
-* [(4) macOS 앱 개발에 필요한 것](https://medium.com/happyprogrammer-in-jeju/스타웍스-개발기-4-macos-앱-개발에-필요한-것-33ce0b8b947)
+* [(1) 스타벅스 WiFi 연결러 개발 시작](https://goo.gl/DPY6UD)
+* [(2) 스타벅스의 WiFi 네트워크 분석](https://goo.gl/5iYVST)
+* [(2.5) 오리지널의 의미](https://goo.gl/1nGfW3)
+* [(3) 사파리 익스텐션과 웹킷 인젝션 ](https://goo.gl/dKc4md)
+* [(3.5) 프로젝트 재시작 보고 ](https://goo.gl/nnWsQQ)
+* [(4) macOS 앱 개발에 필요한 것](https://goo.gl/H121zk)
+* [(마지막) 앱 공개 개발 후기](https://goo.gl/16MghM)
 
 모쪼록, 유용하게 사용하시길 바랍니다.
 
