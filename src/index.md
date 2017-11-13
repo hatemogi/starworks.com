@@ -5,7 +5,7 @@
 * [(1) 스타벅스 WiFi 연결러 개발 시작](https://goo.gl/DPY6UD)
 * [(2) 스타벅스의 WiFi 네트워크 분석](https://goo.gl/5iYVST)
 * [(2.5) 오리지널의 의미](https://goo.gl/1nGfW3)
-* [(3) 사파리 익스텐션과 웹킷 인젝션 ](https://goo.gl/dKc4md)
+* [(3) 사파리 익스텐션과 웹킷 인젝션](https://goo.gl/dKc4md)
 * [(3.5) 프로젝트 재시작 보고 ](https://goo.gl/nnWsQQ)
 * [(4) macOS 앱 개발에 필요한 것](https://goo.gl/H121zk)
 * [(마지막) 앱 공개 개발 후기](https://goo.gl/16MghM)
@@ -23,8 +23,8 @@
 
 ## 기프트 카드를 보내주신 분들
 
-김성훈님, 이동윤님, 김대권님, 김보형님, 안승엽님, 백종화님, 고현식님, 장원석님
+김성훈님, 이동윤님, 김대권님, 김보형님, 안승엽님, 백종화님, 고현식님, 장원석님, 전찬주님, 김은민님
 
-... And your name will be here  @fa{coffee}
+... And your name will be here @fa{coffee}
 
 감사합니다!
