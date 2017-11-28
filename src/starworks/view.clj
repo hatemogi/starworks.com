@@ -61,6 +61,13 @@
            [:a {:href "https://medium.com/@hatemogi"}
             (fa :copyright) " 2017 김대현"]]))
 
+(def 안내
+  [:section#안내
+   [:div
+    [:h1 "안내"]
+    [:div "2017/11/28 - 현재 스타벅스 와이파이 연결 페이지 개편으로, 스타웍스가 자동 동작하지 않고 있습니다. "
+          "곧 대응해서 업데이트 버전 올리도록 하겠습니다."]]])
+
 (def 스타웍스
   [:section#스타웍스
    [:div
@@ -100,7 +107,7 @@
 (defn index-page
   []
   (let [문서 (md/문서변환 (slurp "src/index.md"))]
-    (html (into [:main 스타웍스 사용법 자동실행] 문서))))
+    (html (into [:main 안내 스타웍스 사용법 자동실행] 문서))))
 
 (defn done-page
   []
