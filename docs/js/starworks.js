@@ -17,11 +17,13 @@ window.addEventListener("load", function() {
   })
   if (location.href.match(/done\.html/)) {
     gtag('event', 'connect', {});
-    document.querySelector("button.close-button").addEventListener("click", function() {
+    const 창닫기 = function() {
       if (window.webkit) {
         webkit.messageHandlers.starworks.postMessage({"action": "창닫기"})
       }
-    })
+    }
+    document.querySelector("button.close-button").addEventListener("click", 창닫기);
+    setTimeout(창닫기, 5000);
   }
 })
 
