@@ -117,8 +117,8 @@
   (layout [:main [:section#완료
                   [:div
                    [:h1 "스타웍스 연결"]
-                   [:p.text-center "자동으로 스타벅스 WiFi에 연결했습니다."]
-                   [:p.text-center [:button.btn.btn-primary.close-button "닫기"]]
+                   [:p.text-center "자동으로 스타벅스 WiFi에 연결했습니다. 이 화면은 5초 후에 자동으로 닫깁니다."]
+                   [:p.text-center [:button.btn.btn-primary.close-button "지금 닫기"]]
                    #_[:p.text-center "앱이 마음에 드셨다면, 제작자한테 커피 한 잔 보내주시는 건 어떨까요?"]]]]))
 
 (defn not-found
