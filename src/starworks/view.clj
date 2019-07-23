@@ -59,17 +59,7 @@
            [:a {:href "https://goo.gl/forms/In2HTw7JmMk7C73r2"}
             (fa :comment) " 문의하기"]
            [:a {:href "https://medium.com/@hatemogi"}
-            (fa :copyright) " 2017 김대현"]]))
-
-(def 안내
-  [:section#안내
-   [:div
-    [:h1 "안내"]
-    [:ul
-     [:li "2017/12/02 - 개편 대응 버전 버전 준비됐습니다. 개발자가 일주일 정도 직접 테스트하고 정식 릴리즈 "
-          "하려고 합니다."]
-     [:li "2017/11/28 - 현재 스타벅스 와이파이 연결 페이지 개편으로, 스타웍스가 자동 동작하지 않고 있습니다. "
-           "곧 대응해서 업데이트 버전 올리도록 하겠습니다."]]]])
+            (fa :copyright) " 2017-2019 김대현"]]))
 
 (def 스타웍스
   [:section#스타웍스
@@ -81,7 +71,8 @@
      "번거로운 동의 절차를 자동으로 진행해주는 macOS용 앱입니다."]
     [:p.text-center
      [:a.btn.btn-large.btn-primary {:href "downloads/starworks-0.1.4-RC1.dmg"}
-      (fa :download) " 다운로드 v0.1.4-RC1 (2017/12/02)"]]]])
+      (fa :download) " 다운로드 v0.1.4-RC1 (2017/12/02)"]]
+    [:p.text-center "2019년 7월 기준, 현재 제작자도 유용하게 쓰고 있습니다."]]])
 
 (def 사용법
   [:section#사용법
@@ -110,7 +101,7 @@
 (defn index-page
   []
   (let [문서 (md/문서변환 (slurp "src/index.md"))]
-    (html (into [:main 안내 스타웍스 사용법 자동실행] 문서))))
+    (html (into [:main 스타웍스 사용법 자동실행] 문서))))
 
 (defn done-page
   []
